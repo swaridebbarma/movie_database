@@ -1,8 +1,8 @@
-import React from 'react'
-import "./movie-row.css"
-function MovieRow() {
+import React from 'react';
+import "./movie-row.css";
+function movieRow() {
   return (
-    <div className='movie-row-main'>
+    <div className='movie-main-row'>
       <div className='col1'>1</div>
 
       <div className='col2'>
@@ -14,4 +14,4 @@ function MovieRow() {
   )
 }
 
-export default MovieRow
+export default movieRow;

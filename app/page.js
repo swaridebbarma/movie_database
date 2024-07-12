@@ -1,13 +1,14 @@
-import React from 'react'
-import Header from './Header'
-import MovieRow from './MovieRow'
+import React from 'react';
+import Header from './Header';
+import movieRow from './movieRow';
+
 function page() {
   return (
     <div>
       <Header/>
-      <MovieRow/>
+      <movieRow/>
     </div>
   )
 }
 
-export default page
+export default page;
