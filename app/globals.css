@@ -10,6 +10,8 @@ body {
   height: 100px;
   width: auto;
   background-color: rgb(100, 3, 35);
+  font-family: "Inknut Antiqua";
+
 }
 
 .container {
@@ -31,6 +33,8 @@ body {
   outline: none;
   padding-left: 40px;
   font-size: 20px;
+  font-family: "Inknut Antiqua";
+
 }
 
 .img-search {
@@ -45,4 +49,6 @@ body {
   padding: 5px;
   font-size: 16px;
   padding-top: 6px;
+  font-family: "Inknut Antiqua";
+
 }
