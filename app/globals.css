@@ -1,26 +1,39 @@
-
-.container {
-  text-align: center;
-  padding-top: 20px;
+body {
+  background-image: url('/background.png');
+  color: aliceblue;
 }
 
-.search-container { 
-  display: flex;
-  justify-content: center;
+.header {
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  height: 100px;
+  width: auto;
+  background-color: rgb(100, 3, 35);
+  font-family: "Inknut Antiqua";
+
+}
+
+.container {
+  margin-top: 75px;
+  height: auto;
 }
 
 .search-box {
+  display: flex;
+  justify-content: center;
   position: relative;
   margin-bottom: 21px;
 }
 
-input {
+.search-box input {
   width: 300px;
   height: 70px;
   padding: 5px;
   outline: none;
   padding-left: 40px;
   font-size: 20px;
+  font-family: "Inknut Antiqua";
 
 }
 
@@ -30,10 +43,12 @@ input {
   top: 19px;
 }
 
-button {
+.search-box button {
   width: 71px;
   height: 69px;
   padding: 5px;
   font-size: 16px;
   padding-top: 6px;
+  font-family: "Inknut Antiqua";
+
 }

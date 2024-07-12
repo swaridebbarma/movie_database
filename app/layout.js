@@ -12,7 +12,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+      <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inknut Antiqua"
+        />
+      </body>
     </html>
   );
 }

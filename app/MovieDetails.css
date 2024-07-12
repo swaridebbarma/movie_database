@@ -1,0 +1,61 @@
+.movie-row-main {
+    border: 1px solid black;
+    /* width: 1000px; */
+    height: 435px;
+    margin-top: 60px;
+
+}
+
+.col1 {
+    float: left;
+    /* border: 1px solid black; */
+}
+
+.col-1 {
+    /* border: 1px solid black; */
+    float: left;
+    width: 990px;
+    height: 30px;
+    margin-top: 230px;
+}
+
+.col-2 {
+    /* border: 1px solid black; */
+    float: left;
+    width: 990px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.col-3 {
+    /* border: 1px solid black; */
+    float: left;
+    width: 990px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.col-4 {
+    /* border: 1px solid black; */
+    float: left;
+    width: 990px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.card {
+
+    font-size: medium;
+    font-family: "Inknut Antiqua";
+
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
