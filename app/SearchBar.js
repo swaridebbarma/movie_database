@@ -12,7 +12,7 @@ const SearchBar = () => {
     fetch(`http://www.omdbapi.com/?t=${search}&apikey=8bf35543`)
       .then(response => response.json())
       .then(data => {
-        // console.log('API response:', data);
+        console.log('API response:', data);
         setMovie(data);
       });
   };
