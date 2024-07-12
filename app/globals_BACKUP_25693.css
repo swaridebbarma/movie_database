@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 .container {
   text-align: center;
@@ -24,16 +26,6 @@ input {
 
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 .img-search {
   position: absolute;
   left: 5px;
@@ -47,3 +39,4 @@ button {
   font-size: 16px;
   padding-top: 6px;
 }
+>>>>>>> b563c27cf79430192ff541331dce15183fbd6c06
