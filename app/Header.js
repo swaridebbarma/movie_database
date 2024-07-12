@@ -1,22 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 function Header() {
   return (
-    <div className="container">
-        <h1>Movies Search </h1>
-        <div className="search-container">
-            <div className='search-box'>
-                <img className="img-search" src="Frame.png" alt="Search" />
-                <input type="text" placeholder='Search'/>
-                <button>Search</button>
-            </div>
-        </div>
-
+    <div className="header">
+      <h1>Movies Search</h1>
     </div>
-  )
+  );
 }
+
 export default Header;
-
-
-
 

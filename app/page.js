@@ -1,14 +1,17 @@
-import React from 'react'
-import Header from './Header'
-import MovieRow from './MovieRow'
-function page() {
+import React from 'react';
+import Header from './Header';
+import SearchBar from './SearchBar';
+import MovieDetails from './MovieDetails';
+import './globals.css';
+
+function Page() {
   return (
     <div>
-      <Header/>
-      <MovieRow/>
+      <Header />
+      <SearchBar />
+      <MovieDetails/>
     </div>
-  )
+  );
 }
 
-export default page;
-
+export default Page;

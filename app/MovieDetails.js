@@ -1,16 +1,27 @@
 import React from 'react';
+import "./MovieDetails.css"
 
 const MovieDetails = ({ movie }) => {
-  if (!movie) {
-    return <div>Select a movie to see details</div>;
-  }
+  if (!movie) return null;
 
   return (
-    <div>
-      <h3>{movie.title}</h3>
-      <p>{movie.overview}</p>
-      <p><strong>Release Date:</strong> {movie.release_date}</p>
-      <p><strong>Rating:</strong> {movie.vote_average}</p>
+    <div className='movie-row-main'>
+      <div className='col1'>
+        <img src={movie.Poster} className="card-img-top" alt={movie.Title} /></div>
+      <div className='col2'>
+        <div className='col-1'>
+          <p className="card"><strong>movie Name:</strong>{movie.Title}</p>
+        </div>
+        <div className='col-2'>
+          <p className="card"><strong>Actors:</strong>{movie.Actors}</p>
+        </div>
+        <div className='col-3'>
+          <p className="card"><strong>Year:</strong> {movie.Year}</p>
+        </div>
+        <div className='col-4'>
+          <p className="card"><strong>Directon:</strong> {movie.Director}</p>
+        </div>
+      </div>
     </div>
   );
 };
