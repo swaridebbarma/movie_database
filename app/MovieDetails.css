@@ -13,6 +13,10 @@
 
 }
 
+.card-img-top{
+    height: 431px;
+}
+
 .col2 {
     /* border: 1px solid black; */
     float: left;

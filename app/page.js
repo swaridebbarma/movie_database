@@ -8,7 +8,7 @@ function Page() {
   return (
     <div>
       <Header />
-     <SearchBar />
+      <SearchBar />
       <MovieDetails />
     </div>
   );
