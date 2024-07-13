@@ -1,6 +1,4 @@
-// import React from 'react';
 import Header from './Header';
-// import movieRow from './movieRow';
 import MovieDetails from './MovieDetails';
 import SearchBar from './SearchBar';
 

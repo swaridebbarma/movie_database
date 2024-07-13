@@ -8,9 +8,11 @@ const SearchBar = () => {
   const [search, searchTitle] = useState('');
 
   const searchMovie = () => {
+    // console.log('Searching for movie:', search);
     fetch(`http://www.omdbapi.com/?t=${search}&apikey=8bf35543`)
       .then(response => response.json())
       .then(data => {
+        console.log('API response:', data);
         setMovie(data);
       });
   };
@@ -35,5 +37,3 @@ const SearchBar = () => {
 };
 
 export default SearchBar;
-
-
