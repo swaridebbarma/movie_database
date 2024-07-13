@@ -1,61 +1,84 @@
 .movie-row-main {
     border: 1px solid black;
-    /* width: 1000px; */
     height: 435px;
-    margin-top: 60px;
-
+    margin-top: 100px;
+    padding: 2px;
 }
 
 .col1 {
     float: left;
     /* border: 1px solid black; */
+    width: 430px;
+    height: 430px;
+
+}
+
+.col2 {
+    /* border: 1px solid black; */
+    float: left;
+    width: 846px;
+    height: 430px;
+    margin-left: 14px;
 }
 
 .col-1 {
-    /* border: 1px solid black; */
     float: left;
-    width: 990px;
+    width: 847px;
     height: 30px;
-    margin-top: 230px;
 }
 
 .col-2 {
-    /* border: 1px solid black; */
     float: left;
-    width: 990px;
+    width: 847px;
     height: 30px;
     margin-top: 20px;
-
 }
 
 .col-3 {
-    /* border: 1px solid black; */
     float: left;
-    width: 990px;
+    width: 847px;
     height: 30px;
     margin-top: 20px;
-
 }
 
 .col-4 {
-    /* border: 1px solid black; */
     float: left;
-    width: 990px;
+    width: 847px;
     height: 30px;
     margin-top: 20px;
+}
 
+.col-5 {
+    float: left;
+    width: 847px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.col-6 {
+    float: left;
+    width: 847px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.col-7 {
+    float: left;
+    width: 847px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.col-8 {
+    float: left;
+    width: 847px;
+    height: 30px;
+    margin-top: 20px;
 }
 
 .card {
-
-    font-size: medium;
+    font-size: small;
     font-family: "Inknut Antiqua";
-
-
-}
-
-.card-img-top {
-    width: 100%;
-    height: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(31, 32, 30, 0.055);
+    color: aliceblue;
 }
