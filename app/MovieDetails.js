@@ -1,9 +1,8 @@
 import React from 'react';
-import "./MovieDetails.css"
+import './MovieDetails.css';
 
 const MovieDetails = ({ movie }) => {
   if (!movie) return null;
-
   return (
     <div className='movie-row-main'>
       <div className='col1'>
@@ -37,5 +36,6 @@ const MovieDetails = ({ movie }) => {
     </div>
   );
 };
+
 
 export default MovieDetails;
