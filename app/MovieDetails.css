@@ -1,7 +1,7 @@
 .movie-row-main {
     border: 1px solid black;
     /* width: 1000px; */
-    height: 435px;
+    height: 450px;
     margin-top: 100px;
     padding: 2px;
 
@@ -9,82 +9,19 @@
 
 .col1 {
     float: left;
-    /* border: 1px solid black; */
+    /* border: 1px solid rgb(240, 9, 28); */
 }
 
-.col-1 {
-    /* border: 1px solid black; */
-    float: left;
-    width: 990px;
-    height: 30px;
-    /* margin-top: 230px; */
+.col2 {
+    height: 435px;
+    margin-left: 310px;
+    /* border: 1px solid rgb(255, 236, 62); */
 }
 
-.col-2 {
-    /* border: 1px solid black; */
-    float: left;
-    width: 990px;
-    height: 30px;
-    margin-top: 20px;
-
-}
-
-.col-3 {
-    /* border: 1px solid black; */
-    float: left;
-    width: 990px;
-    height: 30px;
-    margin-top: 20px;
-
-}
-
-.col-4 {
-    /* border: 1px solid black; */
-    float: left;
-    width: 990px;
-    height: 30px;
-    margin-top: 20px;
-
-}
-
-.col-5 {
-    /* border: 1px solid black; */
-    float: left;
-    width: 990px;
-    height: 30px;
-    margin-top: 20px;
-
-}
-
-.col-6 {
-    /* border: 1px solid black; */
-    float: left;
-    width: 990px;
-    height: 30px;
-    margin-top: 20px;
-
-}
-
-.col-7 {
-    /* border: 1px solid black; */
-    float: left;
-    width: 990px;
-    height: 30px;
-    margin-top: 20px;
-
-}
-.col-8 {
-    /* border: 1px solid black; */
-    float: left;
-    width: 990px;
-    height: 30px;
-    margin-top: 20px;
-
-}
 
 .card {
 
-    font-size: small;
+    font-size: medium;
     font-family: "Inknut Antiqua";
     background-color: rgba(31, 32, 30, 0.055);
     color: aliceblue;
@@ -97,3 +34,4 @@
     height: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 } */
+ 
