@@ -8,7 +8,7 @@ const MovieDetails = ({ movie }) => {
         <img src={movie.Poster} className="card-img-top" alt={movie.Title} />
       </div>
       <div className="col2">
-        <h2 className="card">Name: {movie.Title}</h2>
+        <h2 className="card">Title: {movie.Title}</h2>
         <p className="card">Actors: {movie.Actors}</p>
         <p className="card">Released: {movie.Released}</p>
         <p className="card">Director: {movie.Director}</p>
