@@ -1,4 +1,3 @@
-import './MovieDetails.css';
 
 const MovieDetails = ({ movie }) => {
   if (!movie) return null;

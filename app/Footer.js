@@ -1,6 +1,4 @@
-import React from 'react';
 import { FaYoutube, FaFacebook, FaFilm } from 'react-icons/fa';
-import './Footer.css';
 
 function Footer() {
     return (
