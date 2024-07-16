@@ -1,26 +1,9 @@
-// import React from 'react';
-// import "./Footer.css";
-// function Footer() {
-//     return (
-//         <div className="footer">
-//             <p>© {new Date().getFullYear()} Movie Search App</p>
-//             <p>Developed by [Swari & Devika]</p>
-//         </div>
-//     );
-// };
-
-// export default Footer;
-
-
 import React from 'react';
-// import { FaYoutube } from 'react-icons/fa';
-// import { FaFacebook } from 'react-icons/fa';
 import { FaYoutube, FaFacebook, FaFilm } from 'react-icons/fa';
 import './Footer.css';
 
 function Footer() {
     return (
-        <>
         <div className="footer">
             <p>© {new Date().getFullYear()} Movie Search App</p>
             <p>Developed by [Swari & Devika]</p>
@@ -39,9 +22,6 @@ function Footer() {
             </a>
         </div>
 
-        {/* <div className='icon'>
-        </div> */}
-        </>
     );
 }
 
