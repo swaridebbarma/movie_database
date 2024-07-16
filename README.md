@@ -1,3 +1,23 @@
+## Project Title:
+Movie Database
+## Description:
+The Movie Database is a simple web application built with React. It allows users to search for movies and view details about them. The application fetches data from an external movie API and displays it in a clean, user-friendly interface.
+
+## Features and functionalities:
+Search Movies: Users can type in a movie title to search for movies.
+Movie Details: Displays information like the title, release date,Actors,Director, overview, and poster of the movie.
+Responsive Design: Works well on both desktop and mobile devices.
+
+## Technologies Used:
+Frontend: React.js
+API: Fetches data from The Movie Database (TMDb) API
+Styling: Basic CSS for layout and design
+
+## Credits and Acknowledgments:
+OMDb API for providing movie data.
+React for the frontend framework.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
