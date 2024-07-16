@@ -4,11 +4,11 @@ Movie Database
 The Movie Database is a simple web application built with React. It allows users to search for movies and view details about them. The application fetches data from an external movie API and displays it in a clean, user-friendly interface.
 
 ## Features and functionalities:
-Search Movies: 
+# Search Movies: 
 Users can type in a movie title to search for movies.
-Movie Details: 
+# Movie Details: 
 Displays information like the title, release date,Actors,Director, overview, and poster of the movie.
-Responsive Design:
+# Responsive Design:
 Works well on both desktop and mobile devices.
 
 ## Technologies Used:
