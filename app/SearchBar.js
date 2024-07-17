@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from 'react';
 import MovieDetails from './MovieDetails';
-// import './globals.css';
 
 const SearchBar = () => {
   const [movie, setMovie] = useState(null);
