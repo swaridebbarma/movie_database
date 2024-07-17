@@ -16,6 +16,8 @@ body {
   background-color: hsl(253, 36%, 10%);
   height: 200px;
   width: auto;
+  color: #ecf2f8;
+
 }
 
 .header h1 {
@@ -172,7 +174,10 @@ body {
   height: 200px;
   position: 'fixed';
   text-align: center;
+  color: #ecf2f8;
+
 } 
+
 
 .footer p {
     margin: 2px;
