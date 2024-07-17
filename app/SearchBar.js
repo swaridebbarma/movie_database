@@ -7,7 +7,7 @@ const SearchBar = () => {
   const [search, setSearch] = useState('');
 
   const searchMovie = () => {
-    fetch(`http://www.omdbapi.com/?t=${search}&apikey=8bf35543`)
+    fetch(`https://www.omdbapi.com/?t=${search}&apikey=8bf35543`)
       .then(response => response.json())
       .then(data => {
         setMovie(data);
