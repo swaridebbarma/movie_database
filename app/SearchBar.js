@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
-import MovieDetails from './MovieDetails'; 
-import './globals.css';  
+import MovieDetails from './MovieDetails';
+// import './globals.css';
 
 const SearchBar = () => {
   const [movie, setMovie] = useState(null);
@@ -14,26 +14,30 @@ const SearchBar = () => {
         setMovie(data);
       })
       .catch(error => {
-        console.error('Error fetching the movie:', error);
+        console.log('Error fetching the movie:', error);
         setMovie(null);
       });
   };
 
   return (
     <div className="container">
-      <div className="search-box">
-        <input
-          type="text"
-          className="form-control"
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-          placeholder="Enter movie title"
-        />
-        <button className="btn btn-primary" onClick={searchMovie}>
-          Search
-        </button>
+      <div className="row justify-content-center">
+        <div className="col-md-4">
+          <div className="input-group">
+            <input
+              type="text"
+              className="form-control"
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+              placeholder="Enter movie title"
+            />
+            <button className="btn btn-primary" onClick={searchMovie}>
+              Search
+            </button>
+          </div>
+        </div>
       </div>
-      {movie && <MovieDetails movie={movie} />}
+      <MovieDetails movie={movie} />
     </div>
   );
 };
