@@ -47,21 +47,20 @@ Basic CSS for layout and design
 
 ## Credits and Acknowledgments:
 OMDb API for providing movie data.
+
 React for the frontend framework.
 
-### 
-Screenshots or GIFs Demonstrating the Project
-Home Page:
 
-Search Results:
-
-Link to Live Demo (if available)
-Check out the live demo here.
 
 ## Credits and Acknowledgments
-Developers: Swari & Devika
-API: OMDB API for movie data
-Icons: react-icons library
+Developers: 
+Swari & Devika
+
+API: 
+OMDB API for movie data
+
+Icons: 
+react-icons library
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
