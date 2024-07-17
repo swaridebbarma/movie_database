@@ -5,44 +5,36 @@ The Movie Database is a simple web application built with React. It allows users
 
 ## Features and functionalities:
 Search Functionality:
-
 Users can search for movies by their titles.
 Utilizes the OMDB API to fetch movie data based on user input.
 
 Movie Details Display:
-
 Displays detailed information about the searched movie, including title, release date, genre, plot, and more.
 
 Responsive Design:
-
 Ensures that the application is fully responsive and provides a seamless experience across different devices and screen sizes.
 
 Header and Footer:
-
 A consistent header with the title of the application.
 A footer with developer credits and social media links.
 
 Social Media Integration:
-
 Includes links to YouTube, Facebook, and Jio Cinema with corresponding icons.
 
 ## Technologies Used:
 React: 
-
 A JavaScript library for building user interfaces.
 
 Bootstrap: 
-
 A CSS framework for developing responsive and mobile-first websites.
-react-icons:
 
+react-icons:
 A library of popular icons for React applications.
 
 OMDB API:
 An online database to fetch movie information.
 
 Styling: 
-
 Basic CSS for layout and design
 
 ## Credits and Acknowledgments:
