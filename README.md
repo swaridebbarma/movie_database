@@ -1,7 +1,7 @@
 ## Project Title:
 Movie Database
 ## Description:
-The Movie Database is a simple web application built with React. It allows users to search for movies and view details about them. The application fetches data from an external movie API and displays it in a clean, user-friendly interface.
+The Movie Database project allows users to search for and view details about movies, actors, and directors. The application fetches data from the OMDB API. Users can search for a specific movie by its title and display movie information about movies.
 
 ## Features and functionalities:
 Search Functionality:
@@ -69,6 +69,7 @@ pnpm dev
 # or
 bun dev
 ```
+# 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
